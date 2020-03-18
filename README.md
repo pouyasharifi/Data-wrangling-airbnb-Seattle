@@ -19,8 +19,11 @@ pip install scipy
 ```
 For instructions on installing shapely using pip click [here](https://towardsdatascience.com/install-shapely-on-windows-72b6581bb46c).
 
+## Files
+The jupyter notebook file (AirBNB_DataWrangling) will walk you through the 3 questions mentioned above and you will see my solutions to some made up questions for data wrangling practice. The main data set for this project is the "listings.csv" file. The "calendar.csv" file contains information about availability and price of each listing for all days of year 2016. The Seattle_Clerk_Neighborhood files are used for the seattle map plotting purposes. 
+
 ## Analysis and Conclusion
-The codes insides the jupyter notebook will walk you through the 3 questions mentioned and you will see my solutions to some made up questions for data wrangling practice. The summary of the analysis is as follows:
+The summary of the analysis is as follows:
 * There is a high variation in price and number of listings in Seattle neighborhoods, where neighborhoods in Central Seattle having the largest number of listings as well as the highest price per accommodation. Also, as expected the majority of listings in central Seattle is of type apartments, where as houses are more located in neighborhoods far from center.
 * For those places that offer weekly or monthly renting, you can expect around 17% discount for weekly stay and 30% discount on monthly stays.
 * The availability of listings rises in early months of the year. But right after the end of Spring break and the beginning of April, there is a huge dip in listing availability. When the summer begins, the number of available listings grow again. In July and August, when Seattle is experiencing the warmest weather, less people may travel to Seattle and that’s why we see a big dip during that time. The owners might use this period to do the maintenance, upgrade, or restock. As we get close to end of the year the number of listings spikes and we observe most availability around Christmas time.
